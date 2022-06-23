@@ -1,3 +1,9 @@
+'''
+    to run the app: type the following command to the cmd/powershell
+        uvicorn app:app --reload
+'''
+
+
 import numpy as np
 from fastapi import FastAPI, Form
 import pandas as pd
